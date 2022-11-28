@@ -1,0 +1,369 @@
+---
+label: Home
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: text
+  name: paginate
+  label: paginate
+- type: text
+  name: copyright
+  label: copyright
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: boolean
+  name: enableRobotsTXT
+  label: enableRobotsTXT
+- type: boolean
+  name: buildDrafts
+  label: buildDrafts
+- type: boolean
+  name: buildFuture
+  label: buildFuture
+- type: boolean
+  name: buildExpired
+  label: buildExpired
+- type: boolean
+  name: enableEmoji
+  label: enableEmoji
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+- type: field_group
+  name: minify
+  label: minify
+  fields:
+  - type: boolean
+    name: disableCSS
+    label: disableCSS
+  - type: boolean
+    name: disableHTML
+    label: disableHTML
+  - type: boolean
+    name: disableJS
+    label: disableJS
+  - type: boolean
+    name: disableJSON
+    label: disableJSON
+  - type: boolean
+    name: disableSVG
+    label: disableSVG
+  - type: boolean
+    name: disableXML
+    label: disableXML
+  - type: boolean
+    name: minifyOutput
+    label: minifyOutput
+  - type: field_group
+    name: tdewolff
+    label: tdewolff
+    fields:
+    - type: field_group
+      name: html
+      label: html
+      fields:
+      - type: boolean
+        name: keepWhitespace
+        label: keepWhitespace
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: field_group
+    name: analytics
+    label: analytics
+    fields:
+    - type: field_group
+      name: google
+      label: google
+      fields:
+      - type: text
+        name: SiteVerificationTag
+        label: SiteVerificationTag
+    - type: field_group
+      name: yandex
+      label: yandex
+      fields:
+      - type: text
+        name: SiteVerificationTag
+        label: SiteVerificationTag
+    - type: field_group
+      name: bing
+      label: bing
+      fields:
+      - type: text
+        name: SiteVerificationTag
+        label: SiteVerificationTag
+  - type: text
+    name: env
+    label: env
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: description
+    label: description
+  - type: boolean
+    name: math
+    label: math
+  - type: image_gallery
+    name: images
+    label: images
+  - type: field_group
+    name: label
+    label: label
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: text
+      label: text
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: iconHeight
+      label: iconHeight
+    - type: text
+      name: iconWIdth
+      label: iconWIdth
+  - type: boolean
+    name: comments
+    label: comments
+  - type: list
+    name: mainSections
+    label: mainSections
+  - type: boolean
+    name: ShowShareButtons
+    label: ShowShareButtons
+  - type: boolean
+    name: ShowCodeCopyButtons
+    label: ShowCodeCopyButtons
+  - type: boolean
+    name: ShowRelated
+    label: ShowRelated
+  - type: text
+    name: CookieNotice
+    label: CookieNotice
+  - type: text
+    name: CookieLink
+    label: CookieLink
+  - type: text
+    name: CookieButton
+    label: CookieButton
+  - type: boolean
+    name: disableAnchoredHeadings
+    label: disableAnchoredHeadings
+  - type: text
+    name: contactFormAction
+    label: contactFormAction
+  - type: field_group
+    name: assets
+    label: assets
+    fields:
+    - type: boolean
+      name: disableFingerprinting
+      label: disableFingerprinting
+    - type: file
+      name: favicon
+      label: favicon
+    - type: file
+      name: favicon16x16
+      label: favicon16x16
+    - type: file
+      name: favicon32x32
+      label: favicon32x32
+    - type: file
+      name: apple_touch_icon
+      label: apple_touch_icon
+    - type: file
+      name: safari_pinned_tab
+      label: safari_pinned_tab
+  - type: boolean
+    name: ShowReadingTime
+    label: ShowReadingTime
+  - type: boolean
+    name: ShowBreadCrumbs
+    label: ShowBreadCrumbs
+  - type: field_group
+    name: homepage
+    label: homepage
+    fields:
+    - type: boolean
+      name: disableHeroSection
+      label: disableHeroSection
+    - type: text
+      name: heroUpperTitle
+      label: heroUpperTitle
+    - type: text
+      name: heroTitle
+      label: heroTitle
+    - type: text
+      name: heroDescription
+      label: heroDescription
+    - type: text
+      name: heroCTAPrimaryText
+      label: heroCTAPrimaryText
+    - type: text
+      name: heroCTAPrimaryUrl
+      label: heroCTAPrimaryUrl
+    - type: text
+      name: heroCTASecondaryText
+      label: heroCTASecondaryText
+    - type: text
+      name: heroCTASecondaryUrl
+      label: heroCTASecondaryUrl
+    - type: file
+      name: heroBackgroundImage
+      label: heroBackgroundImage
+    - type: boolean
+      name: disableBlogSection
+      label: disableBlogSection
+    - type: text
+      name: blogTitle
+      label: blogTitle
+    - type: text
+      name: blogDescription
+      label: blogDescription
+    - type: text
+      name: seeMoreText
+      label: seeMoreText
+    - type: boolean
+      name: disableAboutSection
+      label: disableAboutSection
+    - type: text
+      name: aboutTitle
+      label: aboutTitle
+    - type: text
+      name: aboutDescription
+      label: aboutDescription
+    - type: file
+      name: aboutImgUrl
+      label: aboutImgUrl
+    - type: text
+      name: aboutContent
+      label: aboutContent
+    - type: boolean
+      name: disablePortfolioSection
+      label: disablePortfolioSection
+    - type: text
+      name: portfolioTitle
+      label: portfolioTitle
+    - type: text
+      name: portfolioDescription
+      label: portfolioDescription
+    - type: field_group_list
+      name: portfolio
+      label: portfolio
+      fields:
+      - type: file
+        name: imageUrl
+        label: imageUrl
+      - type: text
+        name: alt
+        label: alt
+      - type: text
+        name: description
+        label: description
+      - type: text
+        name: websiteUrl
+        label: websiteUrl
+  - type: field_group
+    name: fuseOpts
+    label: fuseOpts
+    fields:
+    - type: boolean
+      name: isCaseSensitive
+      label: isCaseSensitive
+    - type: boolean
+      name: shouldSort
+      label: shouldSort
+    - type: text
+      name: location
+      label: location
+    - type: text
+      name: distance
+      label: distance
+    - type: text
+      name: threshold
+      label: threshold
+    - type: text
+      name: minMatchCharLength
+      label: minMatchCharLength
+    - type: list
+      name: keys
+      label: keys
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: link
+        label: link
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: link
+        label: link
+- type: field_group
+  name: menus
+  label: menus
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: pre
+      label: pre
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: search
+    label: search
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: weight
+      label: weight
