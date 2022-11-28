@@ -36,8 +36,8 @@ params:
     bing:
       SiteVerificationTag: 
   env: production
-  author: Your Name
-  description: Your website description
+  author: Chain Easy
+  description: Web3, Crypto, and Blockchain Made Easy
   math: false
   images:
   - "/uploads/og.webp"
